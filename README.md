@@ -1,4 +1,4 @@
-﻿# 🖋️ Literary Craft Suite: Especificação Mestre e Referência Técnica
+# 🖋️ Literary Craft Suite: Especificação Mestre e Referência Técnica
 
 **Suíte Editorial Cirúrgica para Claude Code, OpenAI Codex e Google Gemini**
 
