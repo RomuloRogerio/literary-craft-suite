@@ -1,0 +1,13 @@
+﻿{
+  "name": "literary-craft-marketplace",
+  "owner": { "name": "Rômulo Rogério" },
+  "plugins": [
+    {
+      "name": "literary-craft-suite",
+      "description": "Crítica literária erudita, análise de ramificações para livros-jogos e depuração de escrita robótica de LLM.",
+      "version": "1.0.0",
+      "source": "./",
+      "category": "writing"
+    }
+  ]
+}

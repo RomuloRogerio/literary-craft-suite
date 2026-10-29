@@ -1,0 +1,8 @@
+﻿{
+  "name": "literary-craft-suite",
+  "version": "1.0.0",
+  "description": "Suíte editorial cirúrgica para ficção, não-ficção e livros-jogos. Triagem por gênero, eliminação de vícios de IA e ludonarrativa.",
+  "author": { "name": "Rômulo Rogério" },
+  "license": "MIT",
+  "keywords": ["creative-writing", "gamebook", "ludonarrative", "literary-criticism", "anti-ai"]
+}
