@@ -1,0 +1,26 @@
+﻿name: Validate Literary Craft Suite
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+
+      - name: Validar Sintaxe dos Manifestos JSON
+        run: |
+          python -c "import json; json.load(open('.claude-plugin/plugin.json'))"
+          python -c "import json; json.load(open('.claude-plugin/marketplace.json'))"
+
+      - name: Validar Estrutura de Markdown
+        run: |
+          test -f agents/gamebook-architect.md
+          test -f skills/anti-ai-purification/SKILL.md
+          test -f commands/critique.md
+          echo "Todos os nós fundamentais foram validados com sucesso!"
